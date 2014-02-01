@@ -11,6 +11,7 @@ The source code for this was originally written as part of an automated MS SQL S
 Currently the application comes in two parts:
 
 1) 'SxGoogle' - This is the main part of the application and the wrapper for the Drive API
+
 2) 'GoogleConnect' - This is an example program with example code on how to authenticate your application with Google Drive along with calling the upload functionality of SxGoogle.
 
 Licence
