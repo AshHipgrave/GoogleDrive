@@ -8,6 +8,11 @@ SxGoogle is a small C# based wrapper for the Google Drive API which provides dev
 
 The source code for this was originally written as part of an automated MS SQL Server database backup tool I wrote to automate the backing up and uploading of SQL databases to an external cloud provider such as Google Drive. As I myself had difficulty at first understanding and implementing the Drive API I've decided to release my source code in the hope that if someone else is also struggling to implement the Drive API they will be able to either use my code as an example or extend/build upon what I've created to better suite their requirements.
 
+Currently the application comes in two parts:
+
+1) 'SxGoogle' - This is the main part of the application and the wrapper for the Drive API
+2) 'GoogleConnect' - This is an example program with example code on how to authenticate your application with Google Drive along with calling the upload functionality of SxGoogle.
+
 Licence
 --------
 Copyright (c) 2014 Ashley Hipgrave
